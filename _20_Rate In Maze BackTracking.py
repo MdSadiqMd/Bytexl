@@ -29,7 +29,7 @@ def solvemazeutil(maze,x,y,sol):
         return False
 if __name__ == "__main__":
     maze=[ [1,0,0,0], 
-            [1,1,0,1], 
+        [1,1,0,1], 
             [0,1,0,0], 
             [1,1,1,1] ]
     solvemaze(maze)
